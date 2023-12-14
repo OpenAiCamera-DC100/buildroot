@@ -1,0 +1,7 @@
+config BR2_PACKAGE_THERMAL_CAMERA
+    bool "thermal_camera"
+    help
+    This is a DC100 thermal camera library pakage.
+
+    
+

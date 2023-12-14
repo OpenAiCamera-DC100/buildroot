@@ -1,0 +1,7 @@
+config BR2_PACKAGE_TOF_SENSOR
+    bool "tof_sensor"
+    help
+    This is a DC100 tof sensor library pakage.
+
+    
+

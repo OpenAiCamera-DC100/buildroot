@@ -1,0 +1,7 @@
+config BR2_PACKAGE_DC100_TEST
+    bool "dc100_test"
+    depends on BR2_PACKAGE_DCMEDIA
+    depends on BR2_PACKAGE_CAMERA_ENGINE_DCAIQ
+
+    help
+    This is a cmosmediatech DC100 board test code pakage.

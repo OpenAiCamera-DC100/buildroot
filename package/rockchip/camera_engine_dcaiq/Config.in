@@ -1,0 +1,6 @@
+menuconfig BR2_PACKAGE_CAMERA_ENGINE_DCAIQ
+	bool "DC100 Camera Engine Dcaiq for SoC with ISP2"
+	help
+	  Rockchip camera engine rkaiq for linux.
+
+

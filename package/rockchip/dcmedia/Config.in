@@ -1,0 +1,22 @@
+config BR2_PACKAGE_DCMEDIA
+    bool "dcmedia"
+    depends on BR2_PACKAGE_MPP
+    depends on BR2_PACKAGE_MPP_ALLOCATOR_DRM
+    depends on BR2_PACKAGE_ALSA_LIB
+    depends on BR2_PACKAGE_LINUX_RGA
+    depends on BR2_PACKAGE_RKNPU
+    depends on BR2_PACKAGE_RKNPU_USE_RKNN_API
+    depends on BR2_PACKAGE_COMMON_ALGORITHM
+    depends on BR2_PACKAGE_COMMON_ALGORITHM_ANR
+    depends on BR2_PACKAGE_COMMON_ALGORITHM_AEC_ANR_AGC  
+    depends on BR2_PACKAGE_COMMON_ALGORITHM_MOVE_DETECT
+    depends on BR2_PACKAGE_COMMON_ALGORITHM_OCCLUSION_DETECT
+    depends on BR2_PACKAGE_ROCKX
+    depends on BR2_PACKAGE_LIBDRM
+    depends on BR2_PACKAGE_LIVE555
+    depends on BR2_PACKAGE_MINILOGGER
+    help
+    This is a cmosmediatech DC100 media library pakage.
+
+    
+

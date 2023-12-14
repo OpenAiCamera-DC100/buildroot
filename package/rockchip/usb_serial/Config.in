@@ -1,0 +1,4 @@
+config BR2_PACKAGE_USB_SERIAL
+    bool "usb_serial"
+    help
+    inatall usbserial.ko
